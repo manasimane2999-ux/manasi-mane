@@ -65,7 +65,9 @@ video{
 
 img{
  margin-bottom:10px;
-width:1490px ;
+max-width:100%;
+height: auto;
+display: block;
 z-index: 1;
 
 }
@@ -190,6 +192,14 @@ transition: 1s;
             color: #ffe6eeb9;           
             font-size: 28px;
         }
+
+
+  @media (max-width: 200px) {
+    h1 { font-size: 48px; }
+    h2 { font-size: 32px; }
+    h3 { font-size: 24px; }
+    h4 { font-size: 20px; }
+  }
 
 
 </style>
